@@ -1,4 +1,5 @@
 var clearBtn= document.getElementById("clear");
+var submitButton = document.getElementById("submit");
 var highScores= document.getElementById("highscores");
 var list= document.createElement("li");
 
@@ -10,21 +11,21 @@ var addList=highScores.appendChild(list);
 
 var init =JSON.partheScore (localStorage.getItem("initial"))
 var theScore =JSON.partheScore (localStorage.getItem("score"))
-var finalScore= init  + " score:  " + theScore ;
+var final= init  + " score:  " + theScore ;
 
-list.append(finalScore);
+list.append(final);
 
 clearBtn.addEventListener("click", function(){
     window.localStorage.clear();
 });
 
 
-function submitTing(){
+function submit(){
     
   
     submitButton.addEventListener("click", function(){
         var credentials =document.getElementById("initials").value;
-        window.location = "highscores.html"
+        window.location = "assets/highscores.html"
         window.localStorage.setItem("credentials",JSON.stringify(credentials));
         window.localStorage.setItem("score",JSON.stringify(score));
 
@@ -34,3 +35,4 @@ function submitTing(){
 
 
 }    
+submit()
