@@ -33,7 +33,7 @@ THEN I can save my initials and my score
 
 ## Walkthrough-GIF-Demonstarion
 
-![alt text](./assets/demo-gif/04-web-apis-homework-demo.gif "gif of Code Quiz")
+![](./assets/demo-gif/04-web-apis-homework-demo.gif)
 
 
 ## URL
