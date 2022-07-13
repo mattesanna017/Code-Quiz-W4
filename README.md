@@ -3,6 +3,7 @@
 ## Table of Contents
 - [User-Story](#user-story)
 - [Usage](#usage)
+- [Walkthrough-GIF-Demonstarion](#Walkthrough-GIF-Demonstarion)
 - [URL](#URL)
 
 
@@ -32,9 +33,10 @@ THEN I can save my initials and my score
 ```
 
 ## Walkthrough-GIF-Demonstarion
-![](Assets/demo-gif/04-web-apis-homework-demo.gif)
+![](Assets/demo-gif/04-web-apis-homework-demo.gif) 
 
 ## URL
 ### Github Reposity
 https://github.com/mattesanna017/Code-Quiz-W4
 ### View Deployment
+https://mattesanna017.github.io/Code-Quiz-W4/
