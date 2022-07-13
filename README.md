@@ -32,9 +32,7 @@ THEN I can save my initials and my score
 ```
 
 ## Walkthrough-GIF-Demonstarion
-
-![](./assets/demo-gif/04-web-apis-homework-demo.gif)
-
+![](Assets/demo-gif/04-web-apis-homework-demo.gif)
 
 ## URL
 ### Github Reposity
