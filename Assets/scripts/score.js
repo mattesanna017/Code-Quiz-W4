@@ -18,13 +18,14 @@ clearBtn.addEventListener("click", function(){
     window.localStorage.clear();
 });
 
+var submitButton= document.getElementById("submit")
 
 function submit(){
     
   
     submitButton.addEventListener("click", function(){
         var initial =document.getElementById("initials").value;
-        window.location = "Assets/highscores.html"
+        window.location = "./Assets/highscores.html"
         window.localStorage.setItem("initial",JSON.stringify(initial));
         window.localStorage.setItem("score",JSON.stringify(score));
 
